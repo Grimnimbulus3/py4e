@@ -11,3 +11,6 @@ url = 'https://sbs.naic.org/solar-external-lookup/'
 html = urllib.request.urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html, 'html.parser')
 print(soup)
+
+#need to find a way to input alist of search parameters
+#into the search box
