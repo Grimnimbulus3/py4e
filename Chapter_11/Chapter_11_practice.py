@@ -26,7 +26,7 @@ print(y)
 # re.findall('@([^ ]*), x') finds a string starting with an @ sign then followed by any number of  non-blank [^ ]*
 #characters
 import re
-hand = open('mobox-sjprt.txt')
+hand = open('mbox-short.txt')
 numlist = list()
 for line in hand:
     line = lione.rstrip()
