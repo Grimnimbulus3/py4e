@@ -7,7 +7,9 @@ cur.execute('DROP TABLE IF EXISTS Counts')
 
 cur = conn.cursor()
 create_query = """
-CREATE TABLE Counts (org TEXT, count INTEGER)
+CREATE TABLE Counts (
+org TEXT
+,count INTEGER)
 """
 cur.execute(create_query)
 

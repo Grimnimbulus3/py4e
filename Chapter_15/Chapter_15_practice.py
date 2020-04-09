@@ -26,3 +26,5 @@ for row in cur:
     cur.execute('DELETE FROM Tracks WHERE plays < 100')
 
 conn.close()
+
+#15.4 Designing a data model
