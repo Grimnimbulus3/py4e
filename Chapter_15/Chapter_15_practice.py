@@ -28,3 +28,5 @@ for row in cur:
 conn.close()
 
 #15.4 Designing a data model
+
+#15.8 many-to-many relationships
